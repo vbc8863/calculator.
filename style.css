@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin-top: 0px;
+    background-image:url(background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+   }
+   .digits {
+    color:#000000;
+    background-color: #ffffff; 
+   }
+   #clearButton {
+    color: rgb(189, 11, 23);  
+   }
+   marquee{
+    color: rgb(255, 255, 255);
+    font: "arial";
+   }
+   .mathButtons {
+    color: rgb(255, 255, 255);
+    margin: 8px 6px 2px 13px;
+    background-color: #1b252b;
+   }
+   .container {
+    margin-right: 15px;
+    height: 110vh;
+    width: 110vw;
+    display: flex;
+    align-items: center;
+   
+   }
+   .button {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 16px;
+    margin-right: 6px;
+    width: 48px;
+    height: 52px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+   }
+   #container {
+    padding: 20px 20px 20px 20px;
+    margin: 20px auto;
+    width: 300px;
+    height: 480px;
+    background-color: rgb(85, 67, 67);
+    border-radius: 30px;
+   }
+   #display {
+    padding:10px;
+    margin: 25px auto;
+    height: 62px;
+    width: 200px;
+    display: block;
+    border-radius: 10px;
+    color: rgb(14, 62, 147);
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 28px;
+    text-align: right; 
+   }
+   .digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+ background-color:#0b5a87;
+}
